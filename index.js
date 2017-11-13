@@ -12,4 +12,5 @@ function johnLennonFacts (facts) {
     newFacts.push (facts[0] + "!!!")
     facts.shift()
   }
+  return newFacts
 }
